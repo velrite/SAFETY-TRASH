@@ -21,6 +21,21 @@ export const metadata: Metadata = {
   title: "Velrite — Platform Engineering & DevSecOps Consultancy",
   description:
     "Velrite helps enterprise teams build secure, scalable cloud infrastructure.",
+  metadataBase: new URL("https://velrite.com"),
+  openGraph: {
+    title: "Velrite — Platform Engineering & DevSecOps Consultancy",
+    description:
+      "We design secure cloud platforms that scale. Platform engineering, DevSecOps, and infrastructure automation for enterprise teams.",
+    url: "https://velrite.com",
+    siteName: "Velrite",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Velrite — Platform Engineering & DevSecOps Consultancy",
+    description:
+      "We design secure cloud platforms that scale. Platform engineering, DevSecOps, and infrastructure automation for enterprise teams.",
+  },
 };
 
 export default function RootLayout({
